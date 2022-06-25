@@ -6,7 +6,7 @@ import {
   FaInstagram,
   FaEnvelope,
 } from "react-icons/fa";
-import ItemContact from "../../../components/Header/ItemContact";
+import ItemContact from "../../components/Header/ItemContact";
 
 export default function Contact() {
   return (
