@@ -7,7 +7,7 @@ import {
   TitleProject,
   Url,
   Created_at,
-} from "./style";
+} from "./../../lib/projectStyle.js";
 
 export default function Projects() {
   const [itemsApi, setItemsApi] = useState([]);
@@ -38,8 +38,14 @@ export default function Projects() {
         <Ul>
           {itemsApi.map((item) => (
             <Li key={item.id} className="list">
-              <TitleProject><button className="glow-on-hover" type="button">{item.name.toUpperCase()}</button></TitleProject>
-              <Url><a>URL: {item.url}</a></Url>
+              <TitleProject>
+                <button className="glow-on-hover" type="button">
+                  {item.name.toUpperCase()}
+                </button>
+              </TitleProject>
+              <Url>
+                <a>URL: {item.url}</a>
+              </Url>
               <Created_at>
                 Data Criação:{" "}
                 {Intl.DateTimeFormat("pt-BR").format(new Date(item.created_at))}
