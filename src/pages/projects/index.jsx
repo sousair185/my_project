@@ -1,4 +1,7 @@
+import Link from "next/link.js";
 import React, { useEffect, useState } from "react";
+import { FaArrowLeft } from "react-icons/fa";
+import { LinkProjects } from "../../../styles/indexStyle.js";
 import {
   Container,
   Content,
@@ -35,6 +38,11 @@ export default function Projects() {
   return (
     <Container>
       <Content>
+        <Link href="/">
+          <LinkProjects className="glow-on-hover" type="button">
+            VOLTAR <FaArrowLeft />
+          </LinkProjects>
+        </Link>
         <Ul>
           {itemsApi.map((item) => (
             <Li key={item.id} className="list">

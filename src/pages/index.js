@@ -30,6 +30,11 @@ export default function Home() {
         <Logo>
           <Img src="/images/logo.png" alt="logo" />
         </Logo>
+
+        <div className="link">
+          <h2>Visite meu Github</h2>
+          <a href="https://www.github.com/sousair185/">Clique aqui</a>
+        </div>
       </Content>
     </Container>
   );

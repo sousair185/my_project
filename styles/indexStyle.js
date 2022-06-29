@@ -16,6 +16,8 @@ export const Content = styled.div`
   padding: 20px;
   @media (max-width: 600px) {
     padding: 5px;
+    .link {
+    }
   }
 
   @media (max-width: 760px) {
@@ -72,18 +74,20 @@ export const Logo = styled.div`
   align-items: center;
   justify-content: center;
   img {
-    width: 18rem;
+    min-width: 18rem;
     height: 18rem;
-    border-radius: 20%;
-    box-shadow: 8px 8px 10px #252525;
+    border-radius: 50%;
+    border-style: solid;
+    border-width: 2px;
+    margin-top: 4rem;
   }
+
   @media (max-width: 760px) {
-    width: 90%;
   }
   @media (max-width: 600px) {
     img {
-      width: 10rem;
-      height: 10rem;
+      min-width: 15rem;
+      height: 15rem;
     }
   }
 `;

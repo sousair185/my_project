@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
-  height: 100px;
+  height: 3rem;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -46,7 +46,7 @@ export const NavLinks = styled.nav`
 
 export const Ancora = styled.a`
   font-size: 20px;
-  height: 100px;
+  height: 3rem;
   transition: 0.3s;
 
   &.active {
@@ -84,6 +84,7 @@ export const CloseSidebar = styled.div`
 
 export const ContentTitle = styled.div`
   text-align: end;
+  margin-top: 1.5rem;
 `;
 
 export const SubTitle = styled.span``;

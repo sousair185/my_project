@@ -28,8 +28,7 @@ export default function Header() {
     <Container>
       <Content>
         <ContentTitle>
-          <Title>Igor Sousa</Title>
-          <SubTitle>Portfolio Pessoal</SubTitle>
+          <Title>Igor Sousa</Title><SubTitle>Portfolio Pessoal</SubTitle>
         </ContentTitle>
         <Menu>
           <FaBars onClick={showSiderbar} />
