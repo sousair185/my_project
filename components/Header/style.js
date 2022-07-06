@@ -6,6 +6,13 @@ export const Container = styled.div`
   align-items: center;
   justify-content: center;
   border-bottom: 1px solid white;
+  background: rgb(0, 0, 0);
+  background: linear-gradient(
+    90deg,
+    rgba(0, 0, 0, 1) 0%,
+    rgba(92, 92, 92, 1) 22%,
+    rgba(255, 255, 255, 1) 100%
+  );
 `;
 
 export const Content = styled.div`
@@ -19,6 +26,7 @@ export const Content = styled.div`
 export const Title = styled.div`
   font-size: 30px;
   text-shadow: 2px 1px 5px black;
+  display: none;
 `;
 
 export const NavLinks = styled.nav`
@@ -87,4 +95,6 @@ export const ContentTitle = styled.div`
   margin-top: 1.5rem;
 `;
 
-export const SubTitle = styled.span``;
+export const SubTitle = styled.span`
+  display: none;
+`;

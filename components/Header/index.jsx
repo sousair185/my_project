@@ -13,6 +13,7 @@ import {
 import { FaBars, FaTimes } from "react-icons/fa";
 import Link from "next/link";
 import { useRouter } from "next/router";
+import { Img } from "../../styles/indexStyle";
 
 export default function Header() {
   const [sidebar, setSidebar] = useState(false);
@@ -28,6 +29,7 @@ export default function Header() {
     <Container>
       <Content>
         <ContentTitle>
+        <Img src="/images/header-igor.gif" alt="header-igor" />
           <Title>Igor Sousa</Title><SubTitle>Portfolio Pessoal</SubTitle>
         </ContentTitle>
         <Menu>

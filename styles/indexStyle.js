@@ -5,6 +5,18 @@ export const Container = styled.div`
   align-items: center;
   justify-content: center;
   height: calc(100vh - 100px);
+  .mario {
+    display: none;
+  }
+  @media (max-width: 600px) {
+    .gif {
+      display: none;
+    }
+    .mario {
+      display: block;
+      width: 20rem;
+    }
+  }
 `;
 
 export const Content = styled.div`
@@ -17,6 +29,9 @@ export const Content = styled.div`
   @media (max-width: 600px) {
     padding: 5px;
     .link {
+      @media (max-width: 600px) {
+        margin-top: 50px;
+      }
     }
   }
 
@@ -92,4 +107,8 @@ export const Logo = styled.div`
   }
 `;
 
-export const Img = styled.img``;
+export const Img = styled.img`
+  position: relative;
+  width: 380px;
+  bottom: 10px;
+`;
