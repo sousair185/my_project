@@ -20,7 +20,7 @@ export default function Home() {
           <Name>Olá, me chamo Igor Sousa</Name>
           <Function>Desenvolvedor Fullstack</Function>
           <Intro>Atualmente estudando Backend</Intro>
-          <Img className="gif" src="/images/igor.gif" alt="igor" />
+          <Img className="gif" src="/images/igor3d.gif" alt="igor" />
           <Img className="mario" src="/images/mario.gif" alt="mario" />
           <Link href="projects">
             <LinkProjects className="glow-on-hover" type="button">

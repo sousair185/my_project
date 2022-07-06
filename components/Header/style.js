@@ -5,7 +5,6 @@ export const Container = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
-  border-bottom: 1px solid white;
   background: rgb(0, 0, 0);
   background: linear-gradient(
     90deg,

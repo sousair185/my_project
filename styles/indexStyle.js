@@ -5,6 +5,9 @@ export const Container = styled.div`
   align-items: center;
   justify-content: center;
   height: calc(100vh - 100px);
+  .gif {
+    width: 200px;
+  }
   .mario {
     display: none;
   }
